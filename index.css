@@ -1,0 +1,158 @@
+*{margin:0; padding:0}
+html, body{background: #f9fdfd; font-family: arial, serif; height: 100%;  }
+
+#navManu {background: #f3f3f3;     border-bottom: 2px solid azure;}
+.displaySize {height: 80px; width: 100%; margin:auto;}
+
+
+#socialTab .social {list-style: none; ;display: flex;width: 130px;padding: 1px 3px;margin-left: 10px;}
+#socialTab .social a {color: #047d66;   padding-top: 5px; font-size: 15px;  border: 1px solid grey; width: 28px; height: 20px; text-align: center; display: inline-block; border-radius: 5px; margin-right: 5px; transition: all 0.5s;}
+#socialTab .social a:hover {background:orange; transform: scale(.8); }
+
+
+#bgtrans{float: left; }
+.into {float: left;
+    margin-top: 6px;
+    margin-right: 80px;;
+ }
+ .into h1{ font-weight: bold;}
+.into h1::first-letter {color: #FF5722;}
+.into p{font-size: 12px; }
+
+#bgtrans img {width: 80px;
+    padding: 7px;}
+
+/*nav var start */
+#navbar { background: #f3f3f3; float: right; border-radius: 7px;   overflow: hidden;} 
+	
+	#navbar a { text-decoration: none;     float: left; transition: all .3s; 
+    padding: 10px 12px;text-align: center;font-size: 16px;      color: #1c1c1c;} 
+	
+	#dropdown { float: left; overflow: hidden; transition: all .3s; }
+	
+	#dropdown #dropbtn {    border: none; transition: all .3s;   outline: inherit;
+    color: #1c1c1c;    background: inherit;    margin: 0;    padding: 10px 12px;
+    font-size: 16px; }
+	
+	#navbar a:hover, #dropdown:hover #dropbtn  {background: #dfdfdf; color: red; }
+	
+	#dropdownContent {background-color: #dfdfdf;    position: absolute; display: none; color: #1c1c1c;     min-width: 160px; z-index: 1;     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+	
+	#dropdownContent:hover {background: #f3f3f3; }
+	
+	#dropdownContent a { float: none;    display: block; transition: all .5s;     color: black;    padding: 10px 12px;    text-decoration: none;    text-align: left;     }
+	#dropdownContent a:hover { background: #ddd; transform: translate(2px) color:red; }
+	#dropdown:hover #dropdownContent{display: block; }
+	
+	/* Navbar close */
+	
+	
+
+    .page-wrapper {min-height: 100%; } 	
+	
+	#mobileMenu {display: none; }
+	
+	
+	
+	section#bg {height: 500px;color: white;background: linear-gradient(#0000006b , #000000),
+linear-gradient(#0000009e , #07000070), url(image/bg.jpg);background-repeat: no-repeat;background-size: cover;text-align: center;font-size: 40px;}
+
+
+section#bg h2 {line-height: 500px; height:500px; text-shadow: 1px 3px 9px; animation-name: bggo;  animation-duration: 1s; color:#099cb1;
+    animation-delay: .2s;  animation-timing-function: cubic-bezier(0.25, 0.1, 0.22, 1.09); }
+
+@keyframes bggo{
+from {transform: scale(0;)}
+to{transform: scale(.9)}
+}
+
+
+
+
+#ourservices {text-align: center; color: #099cb1; width: 200px;  height: 39px;   padding: 10px;  margin: auto; transition: 1s; animation-delay: 2s;  }
+#ourservices h2 {font-size: 32px; }
+#ourservices span {color: #FF5722}
+#ourservices:hover { width: 200px;  height: 39px;   padding: 10px;  margin: auto; cursor: pointer;  transform: rotateX(90deg);  }
+
+.mainblock {padding: 0px;margin: 0; margin-top: 60px;  width: 100%; }
+
+#block1 {  background: #ffffff; border: 1px solid #e2e2e2; width: 400px; display: inline-block; padding: 10px; transition: all .5s; 
+    margin-left: 5px; margin-right: 5px; height: 200px;   }
+	
+	#block1:hover {transform: translateY(-10px); }
+	
+#webde {   font-size: 50px;    color: #ffffff;    text-align: center;    margin-left: 152px; border: 2px solid #FF5722;
+    margin-top: -44px;    margin-bottom: 6px;    background: #FF5722;    height: 80px;    width: 90px;   
+	line-height: 72px; transition: all 1s;   
+
+	}
+#webde:hover {color: #FF5722; background: #099cb1; border: 5px solid #099cb1; border-radius:3px;  cursor: pointer;   transform: scale(0.8); }
+
+
+.mainBlock-text {float: right; text-align: center; color:#444; }
+.mainBlock_titel {color: #099cb1;margin-bottom: 10px;margin-top: 10px;text-align: center;font-size: 15px;}
+	
+	
+	#mainFooter {background:#202020; color: white;  margin-top: 100px; position: relative; display: flex; }
+	
+	#mainFooter .footer-about-Content #servicesLink #productLink #footer-contactform {flex: 1; border: 1px solid white; }
+	
+	
+	#footer-about {width: 350px; float: left;     padding: 5px 20px;  }
+	#footer-about h1 {color: #58b9c9e0 ;font-size: 20px; text-decoration: underline; }
+	#footer-about::first-letter {color: #FF5722;}
+	#footer-about p {color: #c6c6c6; padding: 10px 0px; }
+	#footer-about p span {color: #c6c6c6}
+	
+	
+	#mainFooter #socialTab .social a {
+      font-size: 20px;
+      width: 36px;
+    height: 25px;
+        display: inline-block;
+        transition: all 1s;
+    transition: all .5s	}
+	
+	#mainFooter #socialTab .social a:hover {background: #55e6d7}
+	#servicesLink {text-align: left; float: lef; margin-right: 100px; }
+	
+	#servicesLink, #productLink, #footer-contactform { margin-left: 10px; padding: 5px 15px; display: inline-block;  }
+	#servicesLink  h2, #productLink h2, #footer-contactform h2{color: #58b9c9e0;  font-size: 20px;  text-decoration: underline;    margin-bottom: 10px; }
+	
+	#servicesLink a , #productLink a{display: block;margin-bottom: 7px; color: #c6c6c6; text-decoration: none; line-height: 20px; transition: all .5s}
+	#servicesLink a:hover , #productLink a:hover{transform:scale(1.1);      background:#151515;color: #d3d3d3; text-decoration: underline;  }
+	#footer-contactform {}
+	#footer-contactform .text-input {    background: black;
+    color: #888;
+    margin-bottom: 10px;    width: 100%;
+    border: none; border-radius: 5px;   line-height: 1.5rem;
+    padding: .7rem 1.2rem;}
+	
+	button.btn-footer {
+    text-align: right;
+    float: right;
+    padding: 4px;
+    color: white;
+    background: 	#005555; 
+    border: none; border-radius: 5px; 
+
+}
+#socialTab .fotterSocialTab {text-align: right; margin-bottom: 25px; }
+
+	
+	
+	
+	.footer-bottom {background: #404040; font-family: sans-serif;  color: #b7b7b7;    padding-top: 30px  ;   margin: auto;    text-align: center;    font-size: 20px; position: absolute;
+    width: 100%;}
+.footer-bottom a,	span {color:#b7b7b7; }
+	
+	
+	
+	#webdeMain {  font-size: 50px;    color: #ffffff;    text-align: center;    
+    margin-top: -44px;          height: 80px;    width: 90px;   
+	line-height: 72px;  }
+	
+	
+	.titleImage img {
+    width: 100%;
+}
