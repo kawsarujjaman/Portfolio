@@ -20,7 +20,7 @@ const Navbar = () => {
            <a href="#About"> <li className='text-md transition-all duration-300 p-1 md:p-0'>About</li> </a>
            <a href="#Experience"> <li className='text-md transition-all duration-300 p-1 md:p-0' >Experience</li> </a>
            <a href="#Project"> <li className='text-md transition-all duration-300 p-1 md:p-0' >Project</li> </a>
-           <a href="#Contact"> <li className='text-md transition-all duration-300 p-1 md:p-0' >Contact</li> </a>
+           <a href="#Footer"> <li className='text-md transition-all duration-300 p-1 md:p-0' >Contact</li> </a>
         </ul>
         {menuOpen ? (
             <RiCloseLine size={30} 
